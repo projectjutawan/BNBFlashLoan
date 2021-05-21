@@ -1,4 +1,4 @@
-pragma solidity ^0.6.0;
+pragma solidity ^0.5.0;
 
 // Multiplier-Finance Smart Contracts
 import "https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPoolAddressesProvider.sol";
